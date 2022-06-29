@@ -9,11 +9,11 @@ var infoWindow;
 
 function initMap() {
     var losAngeles = { 
-         { lat: 42.392119773698724, lng: 12.822187290892968 }
+          lat: 42.392119773698724, lng: 12.822187290892968 
     };
     map = new google.maps.Map(document.getElementById("map"), {
       center: losAngeles,
-      zoom: 11,
+      zoom: 6,
       mapTypeId: "roadmap",
     });
     infoWindow = new google.maps.InfoWindow();
